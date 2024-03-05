@@ -1,0 +1,97 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    margin: 0 auto;
+    width: 76em;
+}
+.header1, .headerl, .headerr{
+    display: flex;
+}
+.header1{
+    justify-content: space-between;
+}
+.linkhl{
+    margin-right: 2em;
+}
+.linkhr{
+    margin-left: 2em;
+}
+.valutaskuratov{
+    text-decoration: underline;
+}
+.brand{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.logo:hover{
+    text-decoration: none;
+}
+.obsh{
+    display: flex;
+}
+.brand{
+    margin: 1.5em 0em;
+}
+.left{
+    line-height: 2.5em;
+    margin-top: -0.7em;
+}
+.right{
+    margin-left: 11em;
+}
+.line1{
+    display: flex;
+}
+.card{
+    width: 15em;
+    padding: 1em 0em;
+    margin-top: 4em;
+    display: block;
+    text-align: center;
+    box-shadow: 0px 8px 10px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 0em 0.75em 0.75em;
+    line-height: 2em;
+    margin-right: 6em;
+}
+
+.footer1{
+    margin-top: 5em;
+    max-width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+}
+.ftname{
+    margin-bottom: 1.5em;
+}
+@media (max-width: 770px) {
+    .header1{
+        justify-content: left;
+    }
+    .line1{
+        display: block;
+    }
+    .footer1{
+        display: block;
+    }
+    .ftright{
+        margin-top: 1em;
+    }
+    .right{
+        margin-left: 0em;
+        margin-top: 2em;
+    }
+    .obsh{
+        display: block;
+    }
+    .card{
+        width: 243px;
+    }
+}
+
